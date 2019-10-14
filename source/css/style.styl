@@ -10,10 +10,10 @@ screen-fullhd = 1472px
  *       Override CSS Framework
  * --------------------------------- */
 html
-    font-size: 14px
+    font-size: 13px
 
 body
-    background-color: #f7f7f7
+    background-color: transparent
 
 body, button, input, select, textarea
     font-family: family-sans
@@ -55,7 +55,7 @@ body, button, input, select, textarea
 
 .card
     border-radius: 4px
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05), 0 0 1px rgba(0,0,0,0.1)
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1), 0 0 1px rgba(0,0,0,0.2)
     & + .card,
     & + .column-right-shadow
         margin-top: 1.5rem
@@ -78,7 +78,7 @@ img.thumbnail
         max-height: 1.75rem
 
 .navbar-main
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05)
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 0 1px rgba(0,0,0,0.2)
     .navbar-menu,
     .navbar-start,
     .navbar-end
@@ -325,17 +325,21 @@ img.thumbnail
  * --------------------------------- */
 .content
     h1, h2, h3, h4, h5, h6
-        font-weight: 400
+        font-weight: 600
     h1
         font-size: 1.75em
+        color: #192a56
     h2
-        font-size: 1.5em
+        font-size: 1.375em
+        color: #273c75
     h3
-        font-size: 1.25em
-    h4
         font-size: 1.125em
+        color: #40739e
+    h4
+        font-size: 1.0em
+        color: #3498db
     h5
-        font-size: 1em
+        font-size: 0.85em
     code, pre
         font-size: 0.85em
         font-family: family-mono
@@ -373,7 +377,7 @@ figure.highlight
         overflow: visible
 
         .line
-            line-height: 1.5rem
+            line-height: 1.6rem
 
     figcaption,
     .gutter
